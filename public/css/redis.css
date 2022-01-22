@@ -1,0 +1,31 @@
+.recursive-wrap {
+    float: left;
+    width: 50%;
+}
+.content-wrap {
+    word-break: break-word;
+    float: left;
+    width: 50%;
+}
+.recursive-block {
+    border-left: 1px dotted #aaa;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.recursive-block .recursive-block {
+    margin-left: 20px;
+    border-color: red;
+}
+.recursive-title {
+    font-weight: bold;
+    font-size: 17px;
+}
+.recursive-content {
+    margin-left: 20px;
+    color: blue;
+}
+.recursive-content-delete {
+    margin-top: 5px;
+    color: red;
+    font-size: 15px;
+}
